@@ -76,7 +76,7 @@ function App() {
         <div className="main-section">
           <Routes>
             <Route
-              path="/dashboard"
+              path="/"
               element={<Main setOpenModal={setOpenModal} projects={projects}/>}
             />
             <Route path="/notbuild" element={<Nopage />} />

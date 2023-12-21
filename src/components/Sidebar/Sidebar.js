@@ -20,7 +20,7 @@ function Sidebar() {
           <img src={logo} />
         </div>
         <div className="sidebar-links">
-          <Sidelinks icon={DashboardIconOn} name="Dashboard" navigate="dashboard"/>
+          <Sidelinks icon={DashboardIconOn} name="Dashboard" navigate=""/>
           <Sidelinks icon={InvoicesIconOf} name="Invoices" navigate="notbuild"/>
           <Sidelinks icon={ProposolsIconOf} name="Proposals" navigate="notbuild"/>
           <Sidelinks icon={ServicesIconOf} name="Services" navigate="notbuild"/>

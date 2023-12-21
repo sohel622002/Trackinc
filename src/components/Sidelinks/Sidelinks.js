@@ -3,9 +3,9 @@ import "./Sidelinks.css";
 
 function Sidelinks(props) {
 
-  const allNavigations = document.querySelectorAll(".sidelink");
-
+  
   function makeActive(e) {
+    const allNavigations = document.querySelectorAll(".sidelink");
     allNavigations.forEach((nav) => {
       nav.classList.remove("active");
     });
