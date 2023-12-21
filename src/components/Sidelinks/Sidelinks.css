@@ -1,0 +1,29 @@
+.sidelink {
+  border-radius: 5px;
+}
+
+.sidelink.active {
+  background: #1cd2ad1a;
+}
+
+.sidelink > a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.sidelink.active > a > span{
+    color: #1CD2AD;
+}
+
+.sidelink > a > span {
+  color: #767676;
+}
+
+.sidelink > a > img {
+  width: 24px;
+}

@@ -1,0 +1,74 @@
+.projects{
+    min-width: 760px;
+}
+
+.row{
+    display: flex;
+    padding: 18px;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.row-header{
+    display: flex;
+    padding: 18px;
+    gap: 10px;
+}
+
+.row:nth-child(2n){
+    background-color: #F9FBFB;
+}
+
+.row-header{
+    border-bottom: 1px solid rgba(0, 0, 0, .35);
+}
+
+.projects-buttons{
+    max-width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.row-header > span,
+.row > span{
+    flex: 1;
+}
+
+.row > span{
+    color: #8E90A6;
+}
+
+.project-amount{
+    max-width: 70px;
+}
+
+.projects-buttons > button{
+    font-family: "Glory-Bold";
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+}
+
+.sent-btn,
+.paid-btn{
+    color: #18C3D9;
+    background-color: #E5F7FB;
+}
+
+.draft-btn {
+    color: #AAAAAA;
+    background-color: #AAAAAA33;
+}
+
+.rejected-btn{
+    color: #EC4A4A;
+    background-color: #FEDBDB;
+}
+
+@media (max-width:400px){
+    .row-header, 
+    .row{
+        padding: 18px 5px;
+    }
+}

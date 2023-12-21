@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Glory-Medium";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@font-face {
+  font-family: Glory-Black;
+  src: url(./Assets/Fonts/Gilroy/Gilroy-Black.ttf);
+}
+
+@font-face {
+  font-family: Glory-Bold;
+  src: url(./Assets/Fonts/Gilroy/Gilroy-Bold.ttf);
+}
+
+@font-face {
+  font-family: Glory-x-Bold;
+  src: url(./Assets/Fonts/Gilroy/Gilroy-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Glory-Heavy;
+  src: url(./Assets/Fonts/Gilroy/Gilroy-Heavy.ttf);
+}
+
+@font-face {
+  font-family: Glory-Light;
+  src: url(./Assets/Fonts/Gilroy/Gilroy-Light.ttf);
+}
+
+@font-face {
+  font-family: Glory-Medium;
+  src: url(./Assets/Fonts/Gilroy/Gilroy-Medium.ttf);
+}
+
+@font-face {
+  font-family: Glory-semi-bold;
+  src: url(./Assets/Fonts/Gilroy/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Glory-Thin;
+  src: url(./Assets/Fonts/Gilroy/Gilroy-Thin.ttf);
+}
+
+@font-face {
+  font-family: Glory-Ultralight;
+  src: url(./Assets/Fonts/Gilroy/Gilroy-UltraLight.ttf);
+}
+
+/* Main App Styling */
+
+.app-wrapper{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  height: 100vh;
+  overflow: hidden;
 }
