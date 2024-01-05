@@ -9,7 +9,7 @@ import { useState } from "react";
 
 function App() {
   const [openmodal, setOpenModal] = useState(false);
-
+  
   const [projects, setProjects] = useState([
     {
       id: 1,

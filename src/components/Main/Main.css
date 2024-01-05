@@ -77,7 +77,7 @@
 .finance-wrapper {
   background-color: white;
   color: black;
-  padding: 20px;
+  padding: 28px 24px ;
   border-radius: 10px;
   position: relative;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
@@ -193,9 +193,48 @@
   cursor: pointer;
 }
 
+.notificatio-icon{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1;
+  position: relative;
+  background-color: #FFFFFF1A;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.have-message{
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  width: 8px;
+  aspect-ratio: 1;
+  background-color: red;
+  border-radius: 50%;
+  outline: 3px solid #121E48;
+}
+
+.mobile-cards{
+  display: none;
+}
+
 @media (max-width:1050px){
   .threeDots{
     display: block;
+  }
+}
+
+@media (max-width : 840px){
+  .projects-table{
+    display: none;
+  }
+  .mobile-cards{
+    display: block;
+  }
+  .projects-table-wrapper{
+    background-color: transparent;
   }
 }
 

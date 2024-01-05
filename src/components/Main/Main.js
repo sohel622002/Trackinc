@@ -14,6 +14,8 @@ import incomeImage from "../../Assets/Income-card-logo.png";
 import Projectstabel from "../Projectstabel/Projectstabel";
 import threeDots from '../../Assets/Icons/more_vert.svg';
 
+import Mobilecard from "../MobileCards/Mobilecard";
+
 function Main({ setOpenModal, projects }) {
 
   function opensidebar(){
@@ -39,7 +41,7 @@ function Main({ setOpenModal, projects }) {
               <img src={searchIcon} />
               <input placeholder="Search..." />
             </label>
-            <span>
+            <span className="notificatio-icon">
               <img src={notificationIcon} />
               <span className="have-message"></span>
             </span>
@@ -81,8 +83,11 @@ function Main({ setOpenModal, projects }) {
               Create
             </button>
           </div>
+          <div className="mobile-cards">
+            <Mobilecard projects={projects}/>
+          </div>
           <div className="projects-table">
-            <Projectstabel projects={projects} />
+            <Projectstabel projects={projects}/>
           </div>
         </div>
         <div className="events-wrapper">
